@@ -340,7 +340,7 @@ const animeContentHandler = async(id) =>{
   return await Promise.all(promises);
 };
 
-animeMovieContentHandler = async(id) =>{
+const animeMovieContentHandler = async(id) =>{
   const res = await fetch(`${url.BASE_URL}/${id}`);
   const body = await res.text();
   const $ = cheerio.load(body);
