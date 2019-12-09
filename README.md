@@ -29,7 +29,7 @@
 
 
 ## :rocket: Custom gogoanime API Link
-[gogoanime api](https://gogoanime.now.sh/api/v1/)
+[animefreak api](https://animefreak.chrismichael.now.sh/api/v1/)
 
 ## **:wrench: Developer usage**
 
