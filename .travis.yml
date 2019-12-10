@@ -1,7 +1,7 @@
 language: node_js
+os: windows
 node_js:
   - 'stable'
-sudo: false
 cache:
   directories:
     - node_modules
