@@ -11,7 +11,9 @@
 <img src="https://img.shields.io/badge/now.sh-deployed-brightgreen.svg" alt="">
 <img src="https://badgen.net/badge/icon/now?icon=now&label" alt="">
 <img src="https://img.shields.io/badge/animefreak-API-brightgreen.svg" alt="">
+[![Build Status](https://travis-ci.org/ChrisMichaelPerezSantiago/animefreak.svg?branch=master)](https://travis-ci.org/ChrisMichaelPerezSantiago/animefreak)
 <img src="https://img.shields.io/github/stars/ChrisMichaelPerezSantiago/animefreak?style=social" alt="">
+
          
  <a href="https://nodei.co/npm/animefreak/"><img src="https://nodei.co/npm/animefreak.png"></a>
 
