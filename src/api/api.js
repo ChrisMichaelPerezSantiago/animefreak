@@ -374,7 +374,14 @@ const animeVideoHandler = async(id) =>{
     try{
       if((contents || '').includes('var file = "')) {
         const mp4 = contents.split('var file = ')[1].split(';')[0].split(`"`)[1]
-        video.push({mp4: mp4});
+        var file = mp4;
+        
+        //Technique used by the animefreak page to obtain the real src of the mp4
+        // Therefore, most srcs should now work and reproduce correctly.
+        const _file = file.split("anime1.com/")[1]
+        const random = Math.floor(Math.random() * (11 - 6 + 1) ) + 6;
+        const realMP4 = `https://st${random}.anime1.com/` + _file;
+        video.push({mp4: realMP4});
       }
     }catch(error){
       console.log(error);
@@ -382,7 +389,6 @@ const animeVideoHandler = async(id) =>{
   });
   return await Promise.all(video);
 };
-
 
 module.exports = {
   animeVideoHandler,
