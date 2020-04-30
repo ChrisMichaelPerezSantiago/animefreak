@@ -1,4 +1,4 @@
-# **:triangular_flag_on_post: ANIMEFREAK API** (version 1.0.0)
+# **:triangular_flag_on_post: ANIMEFREAK API** (version 1.0.1)
 
 ![node version](https://img.shields.io/badge/node->=10.16.x-brightgreen.svg)
 ![npm version](https://img.shields.io/badge/npm->=6.9.x-brightgreen.svg)
@@ -24,10 +24,8 @@
 ---
 
 
-## :tada: Updates in version v1.0.0 :tada:
-- [x] *API documentation finished.*
-- [x] *animefreak npm package available for use.*
-- [x] *API available from the web*
+## :tada: Updates in version v1.0.1 :tada:
+ - [x] Technique used by the animefreak page to obtain the real src of the mp4. Therefore, most src should now work and reproduce correctly.
 
 
 ## :rocket: Custom animefreak API Link
