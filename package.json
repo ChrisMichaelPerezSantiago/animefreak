@@ -1,6 +1,6 @@
 {
   "name": "animefreak",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Animefreak is a custom API that provides data from the `animefreak.tv` website. You will have access to the entire catalog whether movies, series, current episodes, genres, search content, etc. with English subtitles.",
   "main": "./src/api/api.js",
   "scripts": {
